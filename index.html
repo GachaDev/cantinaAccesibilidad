@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cantina de Chichilo</title>
+		<meta
+			name="description"
+			content="Cantina en Buenos Aires desde hace más de 60 años"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+	</head>
+	<body class="bg-gray-100">
+		<header
+			class="bg-red-600 flex flex-row justify-between items-center p-4"
+		>
+			<h1 class="text-2xl font-bold text-white">
+				<a href="#welcome">Cantina de Chichilo</a>
+			</h1>
+			<nav>
+				<ul class="flex gap-4">
+					<li>
+						<a class="text-white text-lg font-medium" href="#especialidades"
+							>Especialidades</a
+						>
+					</li>
+					<li>
+						<a
+							class="text-white text-lg font-medium"
+							href="#ubicacion"
+							>Ubicación</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="w-full">
+			<section id="welcome" class="text-center w-full my-4"></section>
+				<h2 class="text-3xl font-bold text-red-700 text-center">
+					Bienvenido a la Cantina de Chichilo
+				</h2>
+				<h3 class="text-lg font-bold text-gray-700 mt-2 text-center mb-4">
+					La autentica comida italiana con más de 60 años de tradición.
+				</h3>
+				<img
+					src="images/frente.webp"
+					alt="Entrada de la cantina de Chichilo"
+					class="w-full max-h-96 object-cover"
+				/>
+			</section>
+			<section id="especialidades" class="flex flex-col gap-4 my-10 text-center justify-center items-center">
+				<h2 class="text-3xl font-bold text-red-700 text-center">
+					Nuestras especialidades
+				</h2>
+				<div class="flex justify-center gap-8">
+					<div class="flex flex-col items-center gap-4">
+						<img
+							src="images/ranas_fritas.webp"
+							alt="Ranas doble pechuga"
+							class="w-[14vw] h-[14vw] object-cover rounded-full"
+						/>
+						<span class="text-xl">Ranas doble pechuga</span>
+					</div>
+					<div class="flex flex-col items-center gap-4">
+						<img
+							src="images/caracoles.webp"
+							alt="Caracoles a la bordalaza"
+							class="w-[14vw] h-[14vw] object-cover rounded-full"
+						/>
+						<span class="text-xl">Caracoles a la bordalaza</span>
+					</div>
+					<div class="flex flex-col items-center gap-4">
+						<img
+							src="images/gambas.webp"
+							alt="Gambas al ajillo"
+							class="w-[14vw] h-[14vw] object-cover rounded-full"
+						/>
+						<span class="text-xl">Gambas al ajillo</span>
+					</div>
+				</div>
+			</section>
+			<section id="ubicacion" class="my-10 text-center gap-4 flex flex-col justify-center items-center">
+				<h2 class="text-3xl font-bold text-red-700 text-center">
+					Donde nos encontramos
+				</h2>
+				<span>Nos encontramos en CAMARONES 1901 ESQ. TERRERO 2006</span>
+				<iframe title="Imagen con el mapa de la ubicación del restaurante" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.694301624555!2d-58.468079!3d-34.606094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcde55529e7bdc599!2sCantina+Chichilo+de+Buenos+Aires!5e0!3m2!1ses!2sar!4v1562262195102!5m2!1ses!2sar" width="500" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe> 
+			</section>
+		</main>
+		<footer class="bg-red-600 text-white text-center p-4">
+			<p>Teléfono: <a href="tel:+541112345678" class="underline">+054-011-4584-1263</a></p>
+			<div class="flex justify-center space-x-4 my-2">
+				<a href="https://www.facebook.com/cantinadechichilo" target="_blank" class="hover:underline">
+					Facebook
+				</a>
+				<a href="https://www.instagram.com/cantinadechichilo" target="_blank" class="hover:underline">
+					Instagram
+				</a>
+				<a href="https://wa.me/541112345678" target="_blank" class="hover:underline">
+					WhatsApp
+				</a>
+			</div>
+			<p>&copy; 2025 Cantina de Chichilo. Todos los derechos reservados.</p>
+		</footer>
+	</body>
+</html>
